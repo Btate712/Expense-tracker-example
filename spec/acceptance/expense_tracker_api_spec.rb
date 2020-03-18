@@ -12,6 +12,8 @@ module ExpenseTracker
     end 
 
     it 'records submitted expenses' do
+      pending 'Need to persist expenses'
+      
       def post_expense(expense)
 
         post '/expenses', JSON.generate(expense)
